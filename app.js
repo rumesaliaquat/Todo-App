@@ -36,11 +36,11 @@ function addTodo() {
 }
 
 function deleteTodoList(deleteBtn){
-  deleteBtn.parentNode.remove()
+  deleteBtn.parentNode.parentNode.remove()
 }
 
 function editTodoList(editBtn){
- editBtn.parentNode.firstChild.nodeValue = prompt("Please edit your text here..")
+ editBtn.parentNode.parentNode.firstChild.nodeValue = prompt("Please edit your text here..")
 }
 
 function deleteAll(){
