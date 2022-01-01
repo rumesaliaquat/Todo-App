@@ -1,0 +1,25 @@
+.inp{
+    height: 28px;
+    width: 300px;
+    border: 3px solid gray;
+    font-size: 20px;
+    margin: 0 10px;
+}
+.btn{
+    color: white;
+    background-color: black;
+    border-radius: 10px;
+    border: none;
+    height: 35px;
+    width: 80px;
+    margin: 0 5px;
+}
+.liStyle{
+    background-color: lightgray;
+    font-size: 23px;
+    display: flex;
+    justify-content: space-between;
+    margin: 20px auto;
+    padding: 5px 15px;
+    list-style-position: inside;
+}
